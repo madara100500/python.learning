@@ -2,11 +2,11 @@ import sys, pygame
 
 pygame.init()
 
-size = width, height = 640, 480
-dx = 1
-dy = 1
-x= 163
-y = 120
+size = width, height = 1024, 768
+dx = 0.1
+dy = 0.1
+x= 1
+y = 100
 black = (0,0,0)
 white = (255,255,255)
 
@@ -28,6 +28,6 @@ while 1:
 
     screen.fill(black)
 
-    pygame.draw.circle(screen, white, (x,y), 8)
+    pygame.draw.circle(screen, white, (x,y), 20)
 
     pygame.display.flip()
